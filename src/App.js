@@ -7,7 +7,7 @@ class App extends Component {
     return(
       <React.Fragment>
       <PortfolioFixed />
-      <PortfolioContent />
+      <PortfolioContent data = {this.props.data} dataEdu= {this.props.dataEdu} dataJob={this.props.dataJob} />
       </React.Fragment>
     );
   }
